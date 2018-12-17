@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.443435">
+<testcase classname="Message conversation" name="Verify that conversation box opens after clicking messenger" time="16.443435">
+<system-out><![CDATA[Given the user is on fourstay home page.....................................passed
+When user clicks on message icon............................................passed
+Then conversation box opens.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

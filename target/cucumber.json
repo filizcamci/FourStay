@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5005377711,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify that conversation box opens after clicking messenger",
+        "description": "",
+        "id": "message-conversation;verify-that-conversation-box-opens-after-clicking-messenger",
+        "after": [
+          {
+            "result": {
+              "duration": 3792581796,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4985519945,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on fourstay home page",
+            "match": {
+              "location": "HomepageEmailStepDefs.the_user_is_on_fourstay_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2481539824,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on message icon",
+            "match": {
+              "location": "MessagingStepDefs.user_clicks_on_message_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166122296,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "conversation box opens",
+            "match": {
+              "location": "MessagingStepDefs.conversation_box_opens()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@temp"
+          }
+        ]
+      }
+    ],
+    "name": "Message conversation",
+    "description": "",
+    "id": "message-conversation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/messaging.feature",
+    "tags": []
+  }
+]
